@@ -1,0 +1,112 @@
+a {
+  font-family: ubuntu;
+  font-weight: 700;
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: bitter;
+}
+.code {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: bitter;
+}
+
+li {
+  font-family: ubuntu;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+li:hover {
+  background: #3b3f44;
+  border-radius: 30px;
+  color: white;
+}
+.celShow:hover, .fahren:hover {
+  background: #3b3f44;
+  border-radius: 5px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+body {
+  background: #34495e;
+  opacity: 0.9;
+  color: white;
+}
+
+img {
+  height: 150px;
+}
+img:hover {
+  border-radius: 30px;
+  background: black;
+}
+
+h1 {
+  margin-top: 55px;
+  text-align: center;
+  font-size: 75px;
+  font-family: bitter;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: center;
+  font-family: bitter;
+  font-weight: 700;
+}
+.text-center {
+  padding-top: 50px;
+}
+
+.all {
+  border: 3px solid red;
+}
+
+.well {
+  position: absolute;
+  border-radius: 20px;
+  color: black;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.fahren {
+  display: inline;
+}
+
+.celHide {
+  display: none;
+}
+.celShow {
+  display: inline;
+}
+
+.fahfah {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+    position: absolute;
+    left: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .container {
+    position: absolute;
+    left: 50%;
+    margin-left: -375px;
+  }
+}
